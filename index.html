@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/all.min.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Offcanvas navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="offcanvas offcanvas-top"
+                    tabindex="-1"
+                    id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel"
+                >
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button
+                            type="button"
+                            class="btn-close text-reset"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row features">
+                <div class="col-12 col-md-4 col-xl-6 item">Column</div>
+                <div class="col-12 col-md-4 col-xl-6 item">Column</div>
+                <div class="col-12 col-md-4 col-xl-6 item">Column</div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/advantages.png" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/main.png" class="d-block w-100" alt="..." />
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev"
+                        >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next"
+                        >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-md-start justify-content-lg-end justify-content-xxl-center">
+                <div class="col-6 col-sm-8 col-md-6 col-lg-7 col-xl-10 col-xxl-5 gx-5 intro-box">
+                    <h2>Heading</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo modi, debitis porro
+                        voluptatum repudiandae corporis veritatis, tempora laboriosam dolor quibusdam fuga illo
+                        aspernatur? Expedita numquam officia vel, delectus rerum blanditiis unde magni placeat, debitis
+                        quae corrupti voluptate. Nulla vero accusantium quam distinctio nesciunt, quos, provident, iure
+                        delectus autem blanditiis doloribus quisquam. Magnam, ea fugit modi voluptate tempore laborum
+                        doloremque culpa laboriosam maiores tenetur harum odit corporis eligendi quas quo accusantium,
+                        repudiandae nobis velit necessitatibus eveniet, pariatur sit! Quidem quis sed consequatur sunt
+                        voluptate quos eos quo nesciunt perspiciatis debitis quaerat reprehenderit, laboriosam qui
+                        laudantium. Eligendi mollitia nobis nihil suscipit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid g-0">
+            <div class="row g-0">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="d-block w-100" src="images/item01.jpg" alt="" />
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="d-block w-100" src="images/item01.jpg" alt="" />
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="d-block w-100" src="images/item01.jpg" alt="" />
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="d-block w-100" src="images/item01.jpg" alt="" />
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="d-block w-100" src="images/item01.jpg" alt="" />
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="d-block w-100" src="images/item01.jpg" alt="" />
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="d-block w-100" src="images/item01.jpg" alt="" />
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="d-block w-100" src="images/item01.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

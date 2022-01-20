@@ -1,0 +1,77 @@
+body {
+  padding-top: 20px;
+  &:before {
+    z-index: 10001;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: limegreen;
+    content: "Xsmall";
+  }
+  @include media-breakpoint-up(sm) {
+    &:before {
+      content: "small";
+      background: #f00;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-base;
+    &:before {
+      content: "middle";
+      background: green;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    &:before {
+      content: "Large";
+      background: turquoise;
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    &:before {
+      content: "XLarge";
+      background: #f09;
+    }
+  }
+  @include media-breakpoint-up(xxl) {
+    &:before {
+      content: "XXLarge";
+      background: #90f;
+    }
+  }
+}
+
+.features {
+  background: yellowgreen;
+  .item {
+    background: #ccc;
+  }
+}
+.carousel-control-next-icon {
+  //   background: #f00;
+}
+.offcanvas-top {
+  height: 100vh;
+}
+.offcanvas-title {
+  color: #90f;
+  font-weight: bold;
+}
+.navbar-toggler {
+  background: yellow;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.intro-box {
+  background: teal;
+}
+.gallery-row {
+  margin-bottom: 20px;
+}
